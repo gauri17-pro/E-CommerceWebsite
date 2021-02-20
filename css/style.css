@@ -1,0 +1,782 @@
+body{
+    background-color: #d9dddf !important;
+    font-family: 'proxima semibold';
+}
+
+.img{
+    display: flex;
+    display: block;
+}
+
+.main_container{
+    background-color: #FFFFFF;
+    height: 80px;
+}
+
+.beep_container{
+    display: flex;
+    padding-left: 375px;
+    height: 80px;
+    
+}
+
+.nav-container > img, p{
+    justify-content: center;
+    margin: auto;
+}
+
+.image-center {
+    padding-top: 45px;
+    justify-content: right;
+}
+
+.pad24px{
+    padding-top: 24px;
+}
+
+.whitecolor{
+    background-color: #FFFFFF;
+}
+
+.textbluecolor{
+    color: #33A0FF;
+}
+  
+.pad35px{
+    padding-top: 35px;
+}
+
+.pad20{
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.pad10{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.bluecolor{
+    background-color: #2E90E5 ;
+    /* margin-left: 4px; */
+}
+.margin24b{
+    margin-top: 24px;
+}
+
+.move-div{
+    margin: 0px 24px;
+}
+
+.move-div-down{
+    margin: 24px 0px 0px 0px;
+}
+
+.mov{
+    margin: 90px 0px;
+}
+
+.pad24{
+    padding-top: 24px;
+    padding-left: 24px;
+}
+
+.paddin-left{
+    padding-left: 24px;
+}
+
+.greycolor{
+    color: #d9dddf
+}
+
+.move{
+    margin: 15px 0px;
+}
+
+.size16{
+    font-size: 16px;
+}
+
+.pad10{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navbar {
+    background-color: #FFFFFF;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    padding: 10px 16px;
+    margin-bottom: 10px;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+
+ .greycolorbg{
+     background-color: #d9dddf;
+ } 
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: 1px #e7e7e7;
+    border-radius: 10px;
+    outline: 1px black;
+    color: black;
+    padding: 10px 10px;
+    background-color: white;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar  .dropdown:hover .dropbtn {
+    background-color: lightgrey;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+      display: none;
+    background-color: grey;
+  }
+
+.radio-button{
+    margin: 10px 0 ;
+}
+
+.size18{
+    font-size: 18px;
+}
+
+.size16{
+    font-size: 16px;
+}
+
+.prices{
+    background-color: white;
+    padding: 24px 0px;
+    margin: 24px 0px;
+    font-size: 16px;
+}
+
+.colors{
+    background-color: white;
+    padding: 24px 24px;
+    /* margin: 24px 0px; */
+    font-size: 16px;
+}
+
+.pad96{
+    margin : 90px 0px;
+}
+
+.radio-item .red{
+    display: block;
+    position: relative;
+    padding: 5 5px;
+    margin: 10px 5px 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.radio-item input{
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.red{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: red;
+    border-radius: 50%;
+    border: 2px solid red;
+    color: red;
+}
+
+
+.radio-item input:checked ~ .red{
+    background-color: white;
+}
+
+.red:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.radio-item input:checked ~ .red:after{
+    display: block;
+}
+
+.radio-item .red:after{
+    top: 3.7px;
+	left: 3.2px;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background: red; 
+    border: 1px solid red;
+
+}
+
+.colorheight{
+    height: 120px;
+    padding-left: 24px ;
+}
+
+.radio-item .blue{
+    display: block;
+    position: relative;
+    padding: 5 5px;
+    margin: 10px 0px 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.radio-item input{
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.blue{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color:blue;
+    border-radius: 50%;
+    border: 2px solid blue;
+    color:blue;
+}
+
+
+.radio-item input:checked ~ .blue{
+    background-color: white;
+}
+
+.blue:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.radio-item input:checked ~ .blue:after{
+    display: block;
+}
+
+.radio-item .blue:after{
+    top: 3.7px;
+	left: 3.2px;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background:blue; 
+    border: 1px solid blue;
+
+}
+
+.radio-item .black{
+    display: block;
+    position: relative;
+    padding: 5 5px;
+    margin: 10px 5px 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.radio-item input{
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.black{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color:black;
+    border-radius: 50%;
+    border: 2px solid black;
+    color:blue;
+}
+
+
+.radio-item input:checked ~ .black{
+    background-color: white;
+}
+
+.black:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.radio-item input:checked ~ .black:after{
+    display: block;
+}
+
+.radio-item .black:after{
+    top: 3.5px;
+	left: 3.2px;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background:black; 
+    border: 1px solid black;
+
+}
+
+.radio-item .yellow{
+    display: block;
+    position: relative;
+    padding: 2 5px;
+    margin: 10px 5px 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.radio-item input{
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.yellow{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color:yellow;
+    border-radius: 50%;
+    border: 2px solid yellow;
+    color:yellow;
+}
+
+
+.radio-item input:checked ~ .yellow{
+    background-color: white;
+}
+
+.yellow:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.radio-item input:checked ~ .yellow:after{
+    display: block;
+}
+
+.radio-item .yellow:after{
+    top: 3.7px;
+	left: 3.2px;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background:yellow; 
+    border: 1px solid yellow;
+
+}
+
+
+.radio-item .pink{
+    display: block;
+    position: relative;
+    padding: 5 5px;
+    margin: 10px 5px 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.radio-item input{
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.pink{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color:rgb(214, 61, 156);
+    border-radius: 50%;
+    border: 2px solid rgb(214, 61, 156);
+    color:rgb(214, 61, 156);
+}
+
+
+.radio-item input:checked ~ .pink{
+    background-color: white;
+}
+
+.pink:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.radio-item input:checked ~ .pink:after{
+    display: block;
+}
+
+.radio-item .pink:after{
+    top: 3.7px;
+	left: 3.2px;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background:rgb(214, 61, 156); 
+    border: 1px solid rgb(214, 61, 156);
+
+}
+
+.radio-item .lightpink{
+    display: block;
+    position: relative;
+    padding: 5 5px;
+    margin: 10px 5px 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.radio-item input{
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.lightpink{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color:pink;
+    border-radius: 50%;
+    border: 2px solid pink;
+    color:pink;
+}
+
+
+.radio-item input:checked ~ .lightpink{
+    background-color: white;
+}
+
+.lightpink:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.radio-item input:checked ~ .lightpink:after{
+    display: block;
+}
+
+.radio-item .lightpink:after{
+    top: 3.7px;
+	left: 3.2px;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background:pink; 
+    border: 1px solid pink;
+
+}
+
+.brand a:hover{
+    color: #2E90E5;
+}
+
+
+
+.beepfooter{
+    height: 60px;
+}
+
+.beepfoottext{
+    padding-left: 20px;
+    margin: 15px 0px;
+    font-size: 12px;
+}
+.followus{
+    margin: 24px 0px;
+    font-weight : bold;
+    font-size: 16px ;
+}
+.followustext{
+    margin: 15px 0px;
+    font-size: 12px;
+}
+
+.contactus{
+    margin: 24px 0px;
+    font-weight : bold;
+    font-size: 16px ;
+}
+
+.basetext{
+    color: #E5E8EA ;
+    font-size: 13px;
+}
+
+.ft-rt{
+    float: right;
+}
+
+.img-pad{
+    padding: 0 5px;
+    height: 20px;
+}
+
+.parent{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.visabgs{
+    position: relative;
+}
+
+.visas{
+    position: absolute;
+    top: 5px;
+    left: 6.5px;
+    height: 8px; 
+}
+
+.beep-container{
+    height: 80px;
+    background-color:#FFFFFF;
+}
+
+.pad-center{
+    justify-content: center ;
+}
+
+.second-row{
+    padding-top: 24px;
+    background-color: white;
+}
+
+
+.navbar-custom{
+    height: 80px;
+}
+
+.allcategories{
+    margin: 24px 24px;
+    background-color: #FFFFFF;
+}
+
+.greenc{
+    background-color: green;
+}
+
+.padb{
+    padding-bottom: 24px;
+}
+
+.pad90{
+    margin: 180px 0px 0px 0px;
+}
+
+.single-row{
+    min-height: 90px;
+}
+
+.iphone{
+    color: white ;
+    margin: 100px 0px;
+}
+
+.padtop{
+    padding-top: 50px;
+}
+
+.m{
+    margin: 30px 0px 0px 0px;
+}
+
+.mar24{
+    margin: 24px 0px 0px 0px;
+}
+
+.navbar-custom{
+    height: 40px;
+}
+
+.grid-container {
+  display: grid;
+  grid-gap: 24px 24px;
+  grid-template-columns: auto auto auto;
+  width: 746px;
+  padding-left: 1px;
+  margin-left: -1rem;
+  }
+
+  .grid-item {
+    background-color: white;
+    padding: 20px;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .ch{
+      color: yellow;
+  }
+  .unch{
+      color: grey;
+  }
+.star{
+    padding: 10px 0px;
+    font-size: 10px;
+  }
+
+  .navbar1{
+      display: flex;
+      justify-content: center;
+      margin-top: 24px;
+  }
+  
+  .navbar1 a {
+    width: 50px;
+    color: #000;
+    text-align: center;
+    padding: 10px 0px;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .navbar1 a:hover, .navbar1 a:active {
+    background-color: black;
+    color: white;
+  }
+  
+  
+  .navbar1 a:focus{
+    background-color: black;
+    color: white;
+  }
+
+  .navbar1 .icon {
+    display: none;
+  }
+
+  .brand{
+      margin: 24px 0px 0px 0px;
+      background-color: white;
+      padding: 24px;
+  }
+
+  .more{
+    margin: 24px 0px 0px 0px;
+    background-color: white;
+    padding: 24px;
+  }
+
+  .cat{
+    background-color: white;
+    padding-top: 24px;
+    padding-left: 24px;
+  }
+
+  .brand-text{
+      color: black;
+      text-decoration: none;
+  }
+  
+a:hover{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+  a.active{
+      color: #2E90E5;
+      text-decoration: none;
+  }
+  
+.heiiphone{
+    height: 350px;
+}
+
+.m18{
+    margin-left: 40px;
+}
+  
+@font-face {
+    font-family: 'proxima reg';
+    src: url('/fonts/FontsFree-Net-proxima_nova_reg-webfont.ttf');
+    
+ }
+ 
+ @font-face {
+    font-family: 'proxima semibold';
+    src: url('/fonts/proximanova-semibold.otf');
+    
+ }
+ 
+ @font-face {
+    font-family: 'proxima bold';
+    src: url('/fonts/FontsFree-Net-Proxima-Nova-Bold.otf') ;
+ 
+ }
+
+ .fon-reg{
+     font-family: 'proxima reg';
+ }
+
+ 
+
